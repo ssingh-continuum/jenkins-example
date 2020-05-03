@@ -4,7 +4,7 @@
             <id>myMavenRepo</id>
             <activation>
                 <property>
-                    <name>!doNotUseMyMavenRepo</name>
+                    <name>jenkins-example</name>
                 </property>
             </activation>
             <properties>
