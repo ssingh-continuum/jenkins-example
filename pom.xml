@@ -55,7 +55,7 @@
 
     </dependencies>
   
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>myMavenRepo</id>
             <url>${myMavenRepoReadUrl}</url>
@@ -70,21 +70,21 @@
             <id>myMavenRepo</id>
             <url>${myMavenRepoWriteUrl}</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
        
          
-  <!-- <repositories>
+   <repositories>
         <repository>
-            <id>myMavenRepo.read</id>
+            <id>myMavenRepo</id>
             <url>https://mymavenrepo.com/repo/Pw4B8NccvPFamcFVJVob/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
+            <id>myMavenRepo</id>
             <url>https://mymavenrepo.com/repo/qxuqzBcR6VqUyZi76U1I/</url>
         </repository>
-    </distributionManagement>-->
+    </distributionManagement>
 
 </project>
